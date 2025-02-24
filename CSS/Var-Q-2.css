@@ -1,0 +1,33 @@
+ /* Define a variable */
+ :root{
+    --first-color:red;
+    --second-color:yellow;
+    --third-color:green;
+    --fourth-color:blue;
+ }
+ .main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+ }
+ .child-1{
+    width: 10%;
+    height: 100vh;
+    background-color: var(--first-color);
+ }
+ .child-2{
+    width: 32%;
+    height: 100vh;
+    background-color: var(--second-color);
+ }
+ .child-3{
+    width: 18%;
+    height: 100vh;
+    background-color: var(--third-color);
+ }
+ .child-4{
+    width: 40%;
+    height: 100vh;
+    background-color: var(--fourth-color);
+ }
